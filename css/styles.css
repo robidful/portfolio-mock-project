@@ -16,12 +16,8 @@ h3 {
   margin: 0;
 }
 
-h1 {
+.my-name {
   font-size: 96px;
-}
-
-h2 {
-  font-size: 48px;
 }
 
 h3 {
@@ -91,13 +87,18 @@ p {
 }
 
 .hello-h2 {
-  padding-top: 30px;
+  padding-top: 90px;
+  font-size: 45px;
 }
 
 .yoga-row,
 .weather-row,
 .yogurt-row {
-  margin-top: 40px;
+  padding-top: 55px;
+}
+
+.yogurt-row {
+  padding-bottom: 50px;
 }
 .yoga-h2,
 .weather-h2,
@@ -136,4 +137,8 @@ p {
 .contact-h2 {
   padding-top: 35px;
   font-size: 45px;
+}
+
+.cont-about {
+  padding-bottom: 30px;
 }
