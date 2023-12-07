@@ -142,3 +142,70 @@ p {
 .cont-about {
   padding-bottom: 30px;
 }
+
+@media (max-width: 578px) {
+  .hello-h2 {
+    padding-top: 80px;
+    font-size: 24px;
+  }
+  .my-name {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .navigation-links {
+    display: flex;
+    margin-top: 13px;
+    justify-content: center;
+  }
+
+  .yoga-row {
+    padding-top: 30px;
+  }
+
+  .pic-home {
+    display: none;
+  }
+  .yoga-h2,
+  .weather-h2,
+  .yogurt-h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #6c63ff;
+  }
+  .yoga-p,
+  .weather-p,
+  .yogurt-p {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .yoga-link,
+  .weather-link,
+  .yogurt-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .about-h1 {
+    font-size: 40px;
+  }
+  .job-title-about {
+    font-size: 18px;
+  }
+  .about-text {
+    font-size: 14px;
+  }
+  .cont-about {
+    padding-top: 5px;
+  }
+  .contact-h2 {
+    font-size: 27px;
+  }
+  .email-link {
+    font-size: 15px;
+  }
+}
