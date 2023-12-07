@@ -143,16 +143,28 @@ p {
   padding-bottom: 30px;
 }
 
-@media (max-width: 578px) {
+@media (max-width: 768px) {
+  .my-name {
+    font-size: 60px;
+  }
+  .yoga-row {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 500px) {
   .hello-h2 {
     padding-top: 80px;
     font-size: 24px;
   }
+
   .my-name {
     font-size: 40px;
   }
   h3 {
     font-size: 20px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
   }
   .navigation-links {
     display: flex;
